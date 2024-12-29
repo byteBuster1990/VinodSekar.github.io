@@ -42,7 +42,7 @@ body {
   float: left;
   padding-left: 2cm;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   /* Add the styles here */
 }
 
@@ -61,17 +61,6 @@ body {
 }
 
 /* Titles */
-h1 {
-  text-align: justify;
-  font-size: 40px;
-  text-align: center;
-  float: left;
-  color: #e8e3ea;
-  margin: 10px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 h2 {
   text-align: justify;
@@ -127,6 +116,8 @@ h2 {
   margin-top: -1cm;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic ;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .Career_timeline{
@@ -146,13 +137,15 @@ h4 {
 }
 
 .profile_image {
-  width: 250px;
-  height: auto;
+  width: 100px;
+  height: 100px;;
   margin-top: 20px;
+  margin-bottom: 100px;
   padding: 5px;
-  vertical-align: bottom;
+  vertical-align: top;
   border-radius: 50%;
-  margin: 5px;
+  margin: 2px;
+  margin-left: px;
 }
 
 .
@@ -391,165 +384,18 @@ button:hover {
   display: table;
 }
 
-
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
-  body {
-    background-color: blue;
-  }
-
-  #home {
-    background-color:  #7600bc;
-    padding-bottom: 1cm;
-    margin-left:-1cm;
-    margin-right:-1cm;
-    margin-top:-1cm;
-    padding-top: 2cm;
-    padding-bottom: 2cm;
-    height: 5mm;
-   }
-  
-  .topmenu {
-    color: lightgray;
-    margin: 10px;
-    padding: 20px;
-    font-size: 20px;
-    text-decoration:none;
-  }
-  
-  .topmenu:hover {
-    color: white;
-    font-weight: bolder;
-    text-decoration: underline;
-    /* Add the styles here */
-  }
-  
-  .topdiv {
-    float: right;
-    padding-right: 1cm;
-  }
-  
-  .profile_name {
-    float: left;
-    padding-left: 2cm;
-    color: white;
-    font-size: 30px;
-    /* Add the styles here */
-  }
-  
-  .profile_name .contact_info {
-    font-size:15px;
-    font-style: italic;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
-  
-  .contact_info img {
-    width:25px;
-    margin-right: 10px;
-    float:left;
-  }
+.maindiv{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  margin-left: 2%;
 }
 
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
-  }
-
-  #home {
-    background-color:  #7600bc;
-    padding-bottom: 1cm;
-    margin-left:-1cm;
-    margin-right:-1cm;
-    margin-top:-1cm;
-    padding-top: 1cm;
-    padding-bottom: 1cm;
-    height: 2mm;
-   }
-  
-  .topmenu {
-    color: lightgray;
-    margin: 5px;
-    padding: 10px;
-    font-size: 10px;
-    text-decoration:none;
-  }
-  
-  .topmenu:hover {
-    color: white;
-    font-weight: bolder;
-    text-decoration: underline;
-    /* Add the styles here */
-  }
-  
-  .topdiv {
-    float: right;
-    padding-right: 1cm;
-  }
-  
-  .profile_name {
-    float: left;
-    padding-left: 1cm;
-    color: white;
-    font-size: 10px;
-    /* Add the styles here */
-  }
-  
-  .profile_name .contact_info {
-    font-size:5px;
-    font-style: italic;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
-  
-  .contact_info img {
-    width:15px;
-    margin-right: 5px;
-    float:left;
-  }
-
-
-  /* About Me */
-
-.about-me {
-  display: flex;
-  align-items: top;
-}
-
-#about-me h1 {
-  font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #7600bc;
-}
-
-#about-me p {
-  font-size: 10px;
-  color: light white;
-  margin-top: -1cm;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic ;
-}
-
-
-h4 {
-  text-align: bottom;
-  font-size: 10px;
-  text-align: bottom;  
-  color: black;
-  float: bottom;
-}
-
-.profile_image {
-  width: 150px;
-  height: auto;
-  margin-top: 20px;
-  padding: 5px;
-  vertical-align: bottom;
-  border-radius: 50%;
-  margin: 5px;
-}
+.profileimg {
+    top: 10px;
+    right: 160px;
+    width: 40px;
+    height: auto;
+    border-radius: 500px;
 }
