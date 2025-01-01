@@ -64,7 +64,7 @@ body {
 
 h2 {
   text-align: justify;
-  font-size: 30px;
+  font-size: 60px;
   text-align: center;
   float: left;
   color: #7600bc;
@@ -137,8 +137,8 @@ h4 {
 }
 
 .profile_image {
-  width: 100px;
-  height: 100px;;
+  width: 120px;
+  height: 120px;;
   margin-top: 20px;
   margin-bottom: 100px;
   padding: 5px;
@@ -209,8 +209,8 @@ h4 {
 /* Projects */
 
 .projects-container {
-  margin-top: 30px;
-  margin-left: 60px;
+  margin-top: 05px;
+  margin-left: 20px;
 }
 
 .projects-container hr {
